@@ -1,0 +1,85 @@
+.topNavGroup {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	clear: both;
+	display: flex;
+	overflow: hidden;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+
+.topNavLink {
+	background-color: #fff;
+	box-shadow: #777 0px 0px 3px 0px;
+	box-sizing: border-box;
+	/* width: calc(33% - 20px); */
+	margin: 10px;
+	/* float: left; */
+	display: inline-block;
+	flex: 1;
+	flex-basis: min-content;
+	transition: transform 0.25s ease;
+}
+
+.topNavLink:hover {
+	transform: scale(1.05);
+}
+
+.topNavBody {
+	background-color: #eee;
+	padding: 12px;
+	box-sizing: border-box;
+	height: 200px;
+	position: relative;
+}
+
+.topNavLink.no-image .topNavBody {
+	height: 300px;
+}
+
+.topNavTitle {
+	text-align: center;
+	text-transform: uppercase;
+	margin: 12px;
+	border-bottom: 1px solid #555;
+	padding-bottom: 5px;
+}
+
+.topNavTitle a {
+	text-decoration: none;
+	color: #555;
+}
+
+.topNavTitle a:hover {
+	text-decoration: underline;
+}
+
+.topNavDescription a {
+	text-decoration: none;
+	color: #555;
+}
+
+.topNavDescription a:hover {
+	text-decoration: underline;
+}
+
+.topNavDescription .link {
+	position: absolute;
+	left: 12px;
+	bottom: 12px;
+}
+
+.topNavImage {
+	height: 100px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.topNavImage div {
+	height: 100%;
+	vertical-align: middle;
+	width: 100%;
+	background-size: cover;
+	background-position: 0 50%;
+}

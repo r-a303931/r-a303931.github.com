@@ -9,8 +9,9 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 
 import Main from './pages/Main';
+import Projects from './pages/Projects';
 
-class App extends React.Component {
+export default class App extends React.Component {
 	render() {
 		return (
 			<Router>
@@ -23,6 +24,10 @@ class App extends React.Component {
 								path="/"
 								exact={true}
 							/>
+							<Route
+								component={Projects}
+								path="/project"
+							/>
 						</Switch>
 					</div>
 					<Footer />
@@ -31,5 +36,3 @@ class App extends React.Component {
 		);
 	}
 }
-
-export default App;

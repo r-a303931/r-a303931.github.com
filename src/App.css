@@ -3,3 +3,10 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+section {
+  box-shadow: #777 0px 0px 3px 0px;
+  margin: 12px 0;
+  padding: 12px;
+  box-sizing: border-box;
+}
