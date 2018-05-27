@@ -3,10 +3,15 @@ footer {
 	margin: 0;
 	padding: 20px;
 	box-sizing: border-box;
-	background-color: #e7e7e7;
+	background-color: #000cff;
 	/* box-shadow: #ffffff 0px 0px 20px 3px inset; */
-	border-top: 1px #e7e7e7 solid;
+	border-top: 1px #000cff solid;
 	box-sizing: border-box;
 	clear: both;
 	overflow: auto;
+	color: white;
+}
+
+footer a {
+	color: white;
 }

@@ -134,7 +134,24 @@ export default class Main extends React.Component {
 										opacity: 1
 									}}
 								>
-									HTML
+									Markup Languages
+									<ul>
+										<li>
+											HTML
+										</li>
+										<li>
+											XHTML
+										</li>
+										<li style={{opacity: 0.9}}>
+											XML
+										</li>
+										<li style={{opacity: 0.6}}>
+											YAML
+										</li>
+										<li style={{opacity: 0.4}}>
+											RAML
+										</li>
+									</ul>
 								</li>
 								<li
 									style={{
@@ -253,6 +270,15 @@ export default class Main extends React.Component {
 						include:
 						<ul>
 							<li>
+								<h4>Cyber Defense Training Academy Team Leader</h4>
+								<p>
+									Attended the Cyber Defense Training Academy located in Maryland for the summer of 2017. Led a team of 4 others,
+									being a secondary teacher for all the classes and leading them in their studies. Graduated Cyber Defense
+									Training Academy with the Honor Cadet award, the top award at Civil Air Patrol National Cadet Special
+									Activites. Honor Cadet required having good inter-personal skills, integrity, and textbook knowledge.
+								</p>
+							</li>
+							<li>
 								<h4>CyberPatriot team leader</h4>
 								<p>
 									Participated on the squadron CyberPatriot team for two years (Seasons VII and VIII). Led
@@ -272,7 +298,19 @@ export default class Main extends React.Component {
 										<li>Cadet Administrative Officer</li>
 										<li>Cadet Aerospace Education Officer</li>
 										<li>Cadet Information Technologies Officer</li>
+										<li>Cadet Emergency Services Officer</li>
+										<li>Cadet Leadership Officer</li>
+										<li>Cadet Safety Officer</li>
+										<li>Cadet Public Affairs Officer</li>
+										<li>Cadet Operations Officer</li>
+										<li>Cadet Supply Officer</li>
+										<li>Cadet Recruiting Officer</li>
+										<li>Cadet Communications Officer</li>
+										<li>Cadet Historian</li>
+										<li>Cadet Drug Demand Reduction Officer</li>
+										<li>Cadet Activities Officer</li>
 									</ul>
+									Each of these positions in turn has an NCO who is taught and led by the Officer
 								</p>
 							</li>
 							<li>
@@ -335,17 +373,12 @@ export default class Main extends React.Component {
 					</p>
 					<Divider />
 					<p>
-						Currently a high school sophomore, homeschooled.<br />
+						Rising high school junior, homeschooled<br />
 						Projected graduation date lies at May 2020<br />
 						Self taught programmer of 6 years<br />
 						Dual-enrolling at College of Southern Maryland<br />
-						Current CSM classes:
-						<ul>
-							<li>Calculus II</li>
-							<li>Computer Science I</li>
-						</ul>
 						Cumulative high school GPA: 4.0 / 4.0<br />
-						Cumulative college GPA: 4.0 / 4.0
+						Cumulative college GPA: 3.67 / 4.0
 					</p>
 				</section>
 			</div>

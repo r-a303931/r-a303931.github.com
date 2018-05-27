@@ -3,8 +3,13 @@ header {
 	margin: 0;
 	padding: 20px;
 	box-sizing: border-box;
-	background-color: #e7e7e7;
+	background-color: #000cff;
 	/* box-shadow: #ffffff 0px 0px 20px 3px inset; */
 	text-align: center;
-	border-bottom: 1px #e7e7e7 solid;
+	border-bottom: 1px #000cff solid;
+	color: white;
+}
+
+header a {
+	color: white;
 }
