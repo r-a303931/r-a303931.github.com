@@ -286,6 +286,8 @@ export default class Main extends React.Component {
 							</h3>
 							<ul>
 								<li>jQuery</li>
+								<li>Node.JS Standard Library</li>
+								<li>PHP Standard Library</li>
 							</ul>
 						</div>
 					</Splitter>
@@ -464,8 +466,6 @@ export default class Main extends React.Component {
 					</h1>
 					<Divider />
 					<div>
-						<a href="resume.pdf" download={true}>Download my resume</a><br />
-						<br />
 						<Resume />
 					</div>
 				</section>
