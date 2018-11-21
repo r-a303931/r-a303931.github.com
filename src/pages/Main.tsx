@@ -447,7 +447,7 @@ export default class Main extends React.Component {
 						Self taught programmer of 7 years<br />
 						Dual-enrolling at College of Southern Maryland<br />
 						Cumulative high school GPA: 4.0 / 4.0<br />
-						Cumulative college GPA: 3.67 / 4.0
+						Cumulative college GPA: 3.75 / 4.0
 					</p>
 				</section>
 
@@ -464,7 +464,7 @@ export default class Main extends React.Component {
 					</h1>
 					<Divider />
 					<div>
-						<a href="/resume.PDF" download={true}>Download my resume</a><br />
+						<a href="resume.pdf" download={true}>Download my resume</a><br />
 						<br />
 						<Resume />
 					</div>

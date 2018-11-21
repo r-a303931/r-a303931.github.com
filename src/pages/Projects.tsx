@@ -9,6 +9,7 @@ import UAS4STEM from './projects/UAS4STEM';
 import EGR1100 from './projects/CSMEGR-1100';
 import SlideManager from './projects/SlideManager';
 import CornerstoneChat from './projects/CornerstoneChat';
+import SEAPInternship from './projects/SEAPInternship';
 
 export default class Projects extends React.Component {
 	render() {
@@ -38,6 +39,10 @@ export default class Projects extends React.Component {
 					<Route
 						component={SlideManager}
 						path="/project/slidemanager"
+					/>
+					<Route
+						component={SEAPInternship}
+						path="/project/seap"
 					/>
 				</Switch>
 			</Router>
