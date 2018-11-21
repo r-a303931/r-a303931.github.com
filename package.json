@@ -44,13 +44,15 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "test": "node scripts/test.js --env=jsdom"
+    "test": "node scripts/test.js --env=jsdom",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "@types/jest": "^22.1.0",
     "@types/node": "^9.4.0",
     "@types/react": "^16.0.35",
     "@types/react-dom": "^16.0.3",
+    "gh-pages": "^2.0.1",
     "typescript": "^2.6.2"
   },
   "homepage": "/build",
