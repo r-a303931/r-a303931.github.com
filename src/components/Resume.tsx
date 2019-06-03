@@ -4,11 +4,6 @@ export default class Resume extends React.Component {
 	public render() {
 		return (
 			<>
-				<a href="Andrew.D.RiouxRESUME.pdf" download={true}>
-					Download my resume
-				</a>
-				<br />
-				<br />
 				<div>
 					<embed
 						src="/Andrew.D.RiouxRESUME.pdf"

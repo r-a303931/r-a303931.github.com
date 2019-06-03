@@ -100,6 +100,13 @@ export default class Main extends React.Component {
 						>
 							A chat application which uses another website for authentication, allowing for easier user management
 						</TopNavigationLink>
+						<TopNavigationLink
+							url="scoreboard"
+							text="Scoreboard"
+							imageurl="scoreboardthumb.png"
+						>
+							A simple scoreboard application for Android devices to manage things such as card games
+						</TopNavigationLink>
 					</TopNavigation>
 				</section>
 
@@ -223,17 +230,17 @@ export default class Main extends React.Component {
 								</li>
 								<li
 									style={{
+										opacity: 0.9
+									}}
+								>
+									Java
+								</li>
+								<li
+									style={{
 										opacity: 0.8
 									}}
 								>
 									Python
-								</li>
-								<li
-									style={{
-										opacity: 0.6
-									}}
-								>
-									Java
 								</li>
 								<li
 									style={{
@@ -260,7 +267,7 @@ export default class Main extends React.Component {
 										</li>
 										<li
 											style={{
-												opacity: 0.5
+												opacity: 0.9
 											}}
 										>
 											React Native
@@ -278,7 +285,7 @@ export default class Main extends React.Component {
 								</li>
 							</ul>
 							<p>
-								This does not include a PHP framework I wrote from scratch which powers&nbsp;
+								There is also a custom PHP framework which powers&nbsp;
 								<a href="https://md089.capunit.com/" target="_blank">my website</a>
 							</p>
 							<h3>
@@ -288,6 +295,7 @@ export default class Main extends React.Component {
 								<li>jQuery</li>
 								<li>Node.JS Standard Library</li>
 								<li>PHP Standard Library</li>
+								<li>Java Standard Library</li>
 							</ul>
 						</div>
 					</Splitter>
@@ -297,7 +305,7 @@ export default class Main extends React.Component {
 					<p>
 						I also have a solid understanding in how to use the following programs:<br />
 						<br />
-						Microsoft Excel, Microsoft Access, SOLIDWORKS 2017, Blender, Autodesk AutoCAD, Autodesk TinkerCAD,
+						Microsoft Excel, SOLIDWORKS 2017, Blender, Autodesk AutoCAD, Autodesk TinkerCAD,
 						Visual Studio, Visual Studio Code
 					</p>
 				</section>
@@ -325,10 +333,10 @@ export default class Main extends React.Component {
 					<Divider />
 
 					<p>
-						I am in Civil Air Patrol, a Cadet First Lieutenant. I have earned the Mitchell Award, and have
+						I am in Civil Air Patrol, a Cadet Captain. I have earned the Mitchell and Earhart Awards, and have
 						progressed through half of the ranks. Achieving Cadet First Lieutenant requires promoting through
-						all the enlisted ranks, of which there are ten. I have taken eleven leadership tests, eight aerospace tests,
-						two comprehensive exams on leadership, and one comprehensive exam on aerospace. Positions I've held
+						all the enlisted ranks, of which there are ten. I have taken thirteen leadership tests, nine aerospace tests,
+						three comprehensive exams on leadership, and two comprehensive exams on aerospace. Positions I've held
 						include:
 						<ul>
 							<li>
@@ -420,6 +428,7 @@ export default class Main extends React.Component {
 								</p>
 							</li>
 						</ul>
+						I am set to be the Cadet Commander of my unit on June 5th, taking the leadership of a squadron of 90 cadets
 					</p>
 				</section>
 
@@ -449,7 +458,7 @@ export default class Main extends React.Component {
 						Self taught programmer of 7 years<br />
 						Dual-enrolling at College of Southern Maryland<br />
 						Cumulative high school GPA: 4.0 / 4.0<br />
-						Cumulative college GPA: 3.75 / 4.0
+						Cumulative college GPA: 3.83 / 4.0
 					</p>
 				</section>
 

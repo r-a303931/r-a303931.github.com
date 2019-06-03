@@ -11,7 +11,6 @@ export default class Footer extends React.Component {
 				<div style={{float: 'left'}}>
 					<Contact />
 				</div>
-				<span style={{float: 'right'}}>Copyright 2018 Andrew Rioux</span>
 			</footer>
 		);
 	}
